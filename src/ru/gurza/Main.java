@@ -2,6 +2,10 @@ package ru.gurza;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        hello("Hello world");
+    }
+
+    public static void hello(String s) {
+        System.out.println(s);
     }
 }
